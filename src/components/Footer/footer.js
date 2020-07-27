@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import logo from "../../images/white-jzglogo1.svg"
+import logo from "../../images/Logo1Dark.svg"
 import SocialFoot from "./socialft"
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <SocialFoot />
       </SocialFooter>
       <Copyright>
-        © {new Date().getFullYear()} JZ Gaskin. All rights reserved
+        © {new Date().getFullYear()} FisherFinancialPA.com. All rights reserved
       </Copyright>
     </FooterWrap>
   )

@@ -10,7 +10,8 @@ const GlobalStyles = createGlobalStyle`
   --clr-white: #fff;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  --ff-slogan: 'BioRhyme', serif;
+  /* --ff-slogan: 'BioRhyme', serif; */
+  --ff-slogan: 'Roboto', serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;

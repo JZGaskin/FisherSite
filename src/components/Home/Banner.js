@@ -7,9 +7,9 @@ const HomeBanner = () => {
     <Background>
       <Content>
         <Slogan>
-          <SloganList>web development &</SloganList>
-          <SloganList>programming</SloganList>
-          <SloganList>Portfolio</SloganList>
+          <SloganList>Your Personal Professional</SloganList>
+          <SloganList>Financial Advisor</SloganList>
+          {/* <SloganList>Portfolio</SloganList> */}
         </Slogan>
       </Content>
     </Background>
