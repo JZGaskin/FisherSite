@@ -4,7 +4,7 @@ const GlobalStyles = createGlobalStyle`
 
 
 :root {
-  --clr-primary: #2f2825;
+  --clr-primary: #3b5f2f;
   --clr-primary-dark: #143f56;
   --clr-primary-light: #24739d;
   --clr-white: #fff;

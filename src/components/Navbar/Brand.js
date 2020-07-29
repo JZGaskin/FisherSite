@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import logo from "../../images/Logo1.svg"
+import logo from "../../images/Logo1bgoldgold.svg"
 
 const Brand = () => {
   return (
@@ -17,7 +17,7 @@ const Image = styled.img`
   width: 250px;
   height: auto;
   margin: auto;
-  padding-top: 5%;
+  padding-top: 3%;
 
   @media (max-width: 992px) {
     width: 175px;

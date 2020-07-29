@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import logo from "../../images/Logo1Dark.svg"
+import logo from "../../images/Logo1foot.svg"
 import SocialFoot from "./socialft"
 
 const Footer = () => {
