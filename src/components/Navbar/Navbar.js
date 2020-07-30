@@ -26,10 +26,10 @@ const Navbar = props => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <Link to="/showcase/">Showcase</Link>
-            <Link to="/knowledge/">Knowledge</Link>
-            <Link to="/blog/">Blog</Link>
-            <Link to="/identity/">Identity</Link>
+            <Link to="/showcase/">Finance</Link>
+            <Link to="/knowledge/">Retirement</Link>
+            <Link to="/blog/">Investments</Link>
+            <Link to="/identity/">Insurance</Link>
           </NavLinks>
           <SocialNav />
           <BurgerWrapper>
@@ -55,7 +55,7 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #fff;
+  background: Transparent;
   z-index: 3;
   font-size: 1.3rem;
   height: 5.5rem;
@@ -67,7 +67,7 @@ const FlexContainer = styled.div`
   display: flex;
   margin: auto;
   justify-content: space-between;
-  height: 5rem;
+  height: 7rem;
 `
 
 const NavLinks = styled(animated.ul)`
@@ -76,19 +76,20 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
 
   & a {
-    color: #143f56;
+    color: #f2f2f2;
     text-transform: capitalize;
-    font-weight: 300;
+    font-weight: 0;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
     transition: all 300ms linear 0s;
     text-decoration: none;
     cursor: pointer;
     font-family: var(--ff-slogan);
+    padding-top: 5%;
 
     &:hover {
-      color: #000e24;
-      box-shadow: 0 1px #000e24;
+      color: #cfb53b;
+      box-shadow: 0 1px #cfb53b;
     }
 
     @media (max-width: 992px) {

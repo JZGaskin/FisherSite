@@ -20,7 +20,7 @@ export default Background
 
 const query = graphql`
   query {
-    file(relativePath: { eq: "Background3.jpg" }) {
+    file(relativePath: { eq: "bgcolors1.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

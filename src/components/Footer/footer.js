@@ -24,7 +24,7 @@ const FooterWrap = styled.footer`
   justify-content: center;
   /* padding: 1rem; */
   color: var(--clr-white);
-  background: var(--clr-primary);
+  background: #2f3b28;
   /* height: 100px; */
   display: flex;
   flex-direction: column;

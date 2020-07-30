@@ -26,7 +26,7 @@ const Content = styled.div`
 `
 const Slogan = styled.h1`
   text-transform: capitalize;
-  color: #fff;
+  color: #f2f2f2;
   font-family: var(--ff-slogan);
   letter-spacing: 4px;
   margin: auto;

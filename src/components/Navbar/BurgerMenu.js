@@ -24,7 +24,7 @@ const HamburgerWrapper = styled.div`
   transform: rotate(180deg);
 
   & span {
-    background: #143f56;
+    background: #f2f2f2;
     display: block;
     position: relative;
     width: 28px;
