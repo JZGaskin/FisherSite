@@ -6,8 +6,9 @@ const GlobalStyles = createGlobalStyle`
 :root {
   --clr-green: #2f3b28;
   --clr-oldgold: #9d7f39;
-  --clr-gold: #cfb53b;
+  --clr-gold: #c5a65e; /*#cfb53b*/
   --clr-white: #f2f2f2;
+  --clr-gray: #191506;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
    --ff-slogan: 'Roboto', serif;
