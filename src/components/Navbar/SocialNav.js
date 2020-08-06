@@ -1,21 +1,15 @@
 import React from "react"
-import {
-  FaGithubSquare,
-  FaTwitterSquare,
-  FaYoutubeSquare,
-  FaEnvelopeSquare,
-  FaFacebookSquare,
-  FaLinkedin,
-  FaPhoneSquare,
-} from "react-icons/fa"
 import styled from "styled-components"
+import { OldPhone } from "@styled-icons/entypo/OldPhone"
 
 export const SocialNav = () => {
   return (
     <Social>
       <Phone>
-        <FaPhoneSquare />
+        <PhoneIcon size="25" />
+        {/* <FaPhoneSquare /> */}
       </Phone>
+
       <CallToday>814-254-3970</CallToday>
     </Social>
   )
@@ -23,8 +17,6 @@ export const SocialNav = () => {
 
 const Social = styled.div`
   display: flex;
-  /* flex-wrap: wrap; */
-  /* line-height: 0; */
   padding-top: 1%;
   font-size: 2rem;
   margin-left: 1rem;
@@ -34,18 +26,21 @@ const Social = styled.div`
   }
 `
 
-const Phone = styled.a`
-  color: #cfb53b;
+const Phone = styled.ul`
+  color: var(--clr-gold);
   transition: var(--transition);
-  /* cursor: pointer; */
   margin-right: 1rem;
-  padding-top: 5%;
+  padding-top: 2%;
 
-  /* &:hover {
+  &:hover {
     transform: translateY(-10%);
-  } */
+  }
 `
 const CallToday = styled.p`
-  color: #cfb53b;
+  color: var(--clr-gold);
   padding-top: 3%;
+`
+
+const PhoneIcon = styled(OldPhone)`
+  color: var(--clr-gold);
 `

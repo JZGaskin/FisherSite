@@ -5,6 +5,8 @@ import Footer from "./Footer/footer"
 import GlobalStyles from "./Global"
 import styled from "styled-components"
 
+import "bootstrap/dist/css/bootstrap.min.css"
+
 const Layout = ({ children }) => {
   return (
     <>

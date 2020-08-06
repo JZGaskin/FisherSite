@@ -7,9 +7,9 @@ const HomeBanner = () => {
     <Background>
       <Content>
         <Slogan>
-          <SloganList>Your Personal Professional</SloganList>
-          <SloganList>Financial Advisor</SloganList>
-          {/* <SloganList>Portfolio</SloganList> */}
+          <SloganList>plan smart, be steady,</SloganList>
+          <SloganList></SloganList>
+          <SloganList>Rest Easy.</SloganList>
         </Slogan>
       </Content>
     </Background>
@@ -25,12 +25,14 @@ const Content = styled.div`
   line-height: 1.25px;
 `
 const Slogan = styled.h1`
-  text-transform: capitalize;
-  color: #f2f2f2;
-  font-family: var(--ff-slogan);
+  /* text-transform: capitalize; */
+  color: var(--clr-white);
+
   letter-spacing: 4px;
   margin: auto;
 `
 const SloganList = styled.ul`
   margin-top: 1rem;
+  font-family: var(--ff-slogan);
+  font-size: 5rem;
 `

@@ -6,6 +6,7 @@ import Brand from "./Brand"
 import BurgerMenu from "./BurgerMenu"
 import CollapseMenu from "./CollapseMenu"
 import { SocialNav } from "./SocialNav"
+import NavBG from "../../images/NavBG.jpg"
 
 const Navbar = props => {
   //   const barAnimation = useSpring({
@@ -55,10 +56,11 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: Transparent;
+  /* background: Transparent; */
+  background-image: url(${NavBG});
   z-index: 3;
   font-size: 1.3rem;
-  height: 5.5rem;
+  height: 7rem;
   padding: 0 2rem;
 `
 

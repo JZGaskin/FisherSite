@@ -4,14 +4,13 @@ const GlobalStyles = createGlobalStyle`
 
 
 :root {
-  --clr-primary: #3b5f2f;
-  --clr-primary-dark: #143f56;
-  --clr-primary-light: #24739d;
-  --clr-white: #fff;
+  --clr-green: #2f3b28;
+  --clr-oldgold: #9d7f39;
+  --clr-gold: #cfb53b;
+  --clr-white: #f2f2f2;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  /* --ff-slogan: 'BioRhyme', serif; */
-  --ff-slogan: 'Roboto', serif;
+   --ff-slogan: 'Roboto', serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
