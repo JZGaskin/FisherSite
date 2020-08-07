@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 // import { FaHandshake, FaFileContract, FaSmileBeam } from "react-icons/fa"
+import FlexBanner from "../Home/FlexBanner"
 
 const Section = styled.section`
   padding: 3rem;
@@ -60,6 +61,7 @@ export default function Plan() {
             <p>Sit back and relax knowing your business looks great online.</p>
           </div>
         </div> */}
+        <FlexBanner />
       </Container>
     </Section>
   )

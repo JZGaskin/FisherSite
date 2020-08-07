@@ -1,7 +1,6 @@
 import React from "react"
 import Background from "./Background"
 import styled from "styled-components"
-import Card from "./Card"
 
 const HomeBanner = () => {
   return (
@@ -11,7 +10,11 @@ const HomeBanner = () => {
           <SloganList>plan smart,</SloganList>
           <SloganList> be steady,</SloganList>
           <SloganList>Rest Easy.</SloganList>
-          <Card />
+          <br />
+
+          <CardList>
+            <strong> Wealth Management & Retirement Planning </strong>
+          </CardList>
         </Slogan>
       </Content>
     </Background>
@@ -21,9 +24,15 @@ const HomeBanner = () => {
 export default HomeBanner
 
 const Content = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   text-align: left;
   justify-content: space-around;
   letter-spacing: 0.7rem;
+
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 60rem;
   /* line-height: 5px; */
 `
 const Slogan = styled.h1`
@@ -47,5 +56,23 @@ const SloganList = styled.li`
 
   @media (max-width: 992px) {
     font-size: 2rem;
+  }
+`
+const CardList = styled.li`
+  margin-top: 2rem;
+  font-family: var(--ff-slogan);
+  font-size: 2rem;
+  list-style-type: none;
+  border: 3px solid var(--clr-oldgold);
+  background-color: var(--clr-oldgold);
+  border-radius: 5px;
+
+  color: var(--clr-gray);
+  padding: 10px;
+
+  @media (max-width: 992px) {
+    font-size: 1rem;
+    padding-left: 2rem;
+    line-height: 25px;
   }
 `
