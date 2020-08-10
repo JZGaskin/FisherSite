@@ -21,27 +21,27 @@ const CollapseMenu = props => {
         <NavLinks>
           <li>
             <Link to="/showcase/" onClick={props.handleNavbar}>
-              Showcase
+              Finance
             </Link>
           </li>
           <li>
             <Link to="/knowledge/" onClick={props.handleNavbar}>
-              Knowledge
+              Retirement
             </Link>
           </li>
           <li>
             <Link to="/blog/" onClick={props.handleNavbar}>
-              Blog
+              Investments
             </Link>
           </li>
           <li>
             <Link to="/identity/" onClick={props.handleNavbar}>
-              Identity
+              Insurance
             </Link>
           </li>
           <li>
             <Link to="/social/" onClick={props.handleNavbar}>
-              Social
+              Call Today 814-254-3970
             </Link>
           </li>
         </NavLinks>

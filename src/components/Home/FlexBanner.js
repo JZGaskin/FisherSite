@@ -32,7 +32,6 @@ const FlexBanner = () => {
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
       </Container>
     </Body>
   )
