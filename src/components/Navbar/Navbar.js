@@ -6,7 +6,6 @@ import Brand from "./Brand"
 import BurgerMenu from "./BurgerMenu"
 import CollapseMenu from "./CollapseMenu"
 import { SocialNav } from "./SocialNav"
-// import NavBG from "../../images/NavBG.jpg"
 
 const Navbar = props => {
   //   const barAnimation = useSpring({

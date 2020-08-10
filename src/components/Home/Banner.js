@@ -66,13 +66,13 @@ const CardList = styled.li`
   border: 3px solid var(--clr-oldgold);
   background-color: var(--clr-oldgold);
   border-radius: 5px;
-
   color: var(--clr-gray);
   padding: 10px;
 
   @media (max-width: 992px) {
-    font-size: 1rem;
-    padding-left: 2rem;
+    font-size: 1.3rem;
+    padding: 1.3rem;
     line-height: 25px;
+    text-align: center;
   }
 `
