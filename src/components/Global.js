@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
   --clr-gold: #c5a65e; /*#cfb53b*/
   --clr-white: #f2f2f2;
   --clr-gray: #191506;
+  --clr-green: #2d372e;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
    --ff-slogan: 'Roboto', serif;

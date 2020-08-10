@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-// import { FaHandshake, FaFileContract, FaSmileBeam } from "react-icons/fa"
-// import FlexBanner from "../Home/FlexBanner"
+import { Handshake } from "@styled-icons/fa-solid/Handshake"
+import { FileContract } from "@styled-icons/fa-solid/FileContract"
+import { CheckmarkDoneCircle } from "@styled-icons/ionicons-sharp/CheckmarkDoneCircle"
 
 const Section = styled.section`
   padding: 3rem;
@@ -14,9 +15,24 @@ const Title = styled.h1`
   text-align: center;
   text-transform: capitalize;
 `
-const Subtitle = styled.h4`
+const Subtitle = styled.h3`
   text-align: center;
   text-transform: capitalize;
+`
+const Icon1 = styled(Handshake)`
+  color: var(--clr-green);
+  height: 25%;
+  width: 25%;
+`
+const Icon2 = styled(FileContract)`
+  color: var(--clr-green);
+  height: 25%;
+  width: 25%;
+`
+const Icon3 = styled(CheckmarkDoneCircle)`
+  color: var(--clr-green);
+  height: 25%;
+  width: 25%;
 `
 
 export default function Plan() {
@@ -24,19 +40,17 @@ export default function Plan() {
     <Section>
       <Container>
         <Title>Experienced Financial Advisor</Title>
-        <Subtitle>
-          <strong>Wealth Management</strong> in
-          <strong> 3 easy steps</strong>
-        </Subtitle>
-        {/* <br />
+        <Subtitle>Wealth Management in 3 easy steps</Subtitle>
+
+        <br />
         <br />
         <div className="row">
           <div className="col-sm-4 text-center">
-            <FaHandshake className="plan-icon text-center" />
+            <Icon1 className="plan-icon text-center" />
             <br />
             <br />
             <h6 className="plan-label text-center text-strong">
-              Consult with an expert
+              Consult with an Expert
             </h6>
             <p>
               We'll evaluate your brand, discuss your needs and agree on next
@@ -44,7 +58,7 @@ export default function Plan() {
             </p>
           </div>
           <div className="col-sm-4 text-center">
-            <FaFileContract className="plan-icon text-center" />
+            <Icon2 className="plan-icon text-center" />
             <br />
             <br />
             <h6 className="plan-label text-center">Get a Customized Plan</h6>
@@ -54,14 +68,13 @@ export default function Plan() {
             </p>
           </div>
           <div className="col-sm-4 text-center">
-            <FaSmileBeam className="plan-icon text-center" />
+            <Icon3 className="plan-icon text-center" />
             <br />
             <br />
             <h6 className="plan-label text-center">Look Great to the World</h6>
             <p>Sit back and relax knowing your business looks great online.</p>
           </div>
-        </div> */}
-        {/* <FlexBanner /> */}
+        </div>
       </Container>
     </Section>
   )
